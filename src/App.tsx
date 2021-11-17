@@ -21,6 +21,18 @@ function App() {
           <h4>A Passionate Front-End Developer</h4>
         </div>
       </section>
+      <div className="Description">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Description">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Description">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
     </div>
   );
 }
