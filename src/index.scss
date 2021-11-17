@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -18,6 +17,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 
 section img {
@@ -29,8 +29,16 @@ section img {
   object-fit: cover;
 }
 
-section h2 {
+.Description {
+  z-index: 2;
+}
+
+.Description h2 {
   color: #fff;
-  font-size: 12rem;
-  z-index: 1;
+  font-size: 7rem;
+}
+
+.Description h4 {
+  color: #fff;
+  font-size: 2rem;
 }
