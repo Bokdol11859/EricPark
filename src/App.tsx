@@ -3,6 +3,14 @@ import { useState } from "react";
 function App() {
   return (
     <div className="App">
+      <div className="position">
+        <div className="switch-button">
+          <input className="switch-button-checkbox" type="checkbox"></input>
+          <label className="switch-button-label">
+            <span className="switch-button-label-span">English</span>
+          </label>
+        </div>
+      </div>
       <section>
         <div className="background">
           <img src="/images/1.png" data-speed="-2" className="layer" />
@@ -19,11 +27,47 @@ function App() {
           <img src="/images/12.png" data-speed="-2" className="layer" />
         </div>
         <div className="Description">
-          <img src="/images/profile1.jpeg" className="profile" />
+          <img src="/images/profile1.png" className="profile" />
           <h2>My Name is Eric Park</h2>
           <h4>A Passionate Front-End Developer</h4>
         </div>
       </section>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
+      <div className="Section1">
+        <h2>My Name is Eric Park</h2>
+        <h4>A Passionate Front-End Developer</h4>
+      </div>
       <div className="Section1">
         <h2>My Name is Eric Park</h2>
         <h4>A Passionate Front-End Developer</h4>
