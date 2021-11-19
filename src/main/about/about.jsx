@@ -13,10 +13,11 @@ function About() {
   return (
     <>
       <div
+        className="AboutMe"
         style={
           window.scrollY < window.screen.height / 2
             ? {
-                transform: `translateX(calc(-500px + ${window.scrollY}px)`,
+                transform: `translateX(calc(-470px + ${window.scrollY}px)`,
               }
             : {
                 transform: `translateX(50)`,
@@ -24,7 +25,7 @@ function About() {
         }
       >
         <h1 className="AboutMeTitle">About Me</h1>
-        <h2 style={{ paddingBottom: "10px" }}>박준열 | Eric Park</h2>
+        <h1 style={{ paddingBottom: "10px" }}>박준열 | Eric Park</h1>
 
         <p>
           <span style={{ textDecoration: "underline dotted" }}>

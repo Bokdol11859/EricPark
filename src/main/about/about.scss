@@ -1,3 +1,9 @@
-.AboutMeTitle {
-  font-size: 5rem;
+.AboutMe {
+  .AboutMeTitle {
+    font-size: 5rem;
+    padding-top: 30px;
+  }
+  p {
+    font-size: 1.3rem;
+  }
 }
