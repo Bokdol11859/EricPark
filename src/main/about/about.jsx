@@ -15,9 +15,9 @@ function About() {
       <div
         className="AboutMe"
         style={
-          window.scrollY < window.screen.height / 2
+          window.scrollY < window.screen.height / 2 - 30
             ? {
-                transform: `translateX(calc(-450px + ${window.scrollY}px)`,
+                transform: `translateX(calc(-370px + ${window.scrollY}px)`,
               }
             : {
                 transform: `translateX(50)`,
@@ -42,7 +42,7 @@ function About() {
       <br />
       <br />
       <br />
-      <div>
+      <span style={{ display: "none" }}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -84,7 +84,7 @@ function About() {
         of Letraset sheets containing Lorem Ipsum passages, and more recently
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
-      </div>
+      </span>
     </>
   );
 }
