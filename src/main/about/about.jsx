@@ -17,7 +17,7 @@ function About() {
         style={
           window.scrollY < window.screen.height / 2
             ? {
-                transform: `translateX(calc(-470px + ${window.scrollY}px)`,
+                transform: `translateX(calc(-450px + ${window.scrollY}px)`,
               }
             : {
                 transform: `translateX(50)`,
